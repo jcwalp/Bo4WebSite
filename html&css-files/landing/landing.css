@@ -14,19 +14,30 @@ body {
   background-image: url('/images/head-img-back.jpg');
   width: 100%;
   background-position:center;
-  background-repeat: no-repeat;
   margin-left: auto;
   margin-right: auto;
   height: 300px;
   border-bottom-color: #FF4500;
   border-bottom-style: solid;
-  border-bottom-width: medium;
+  border-bottom-width: 10px;
+  margin-top: 0;
 }
 
 .head-text {
   color: white;
   text-align: left;
-  position: relative;
+  font-size: 48px;
+  font-weight: bold;
+  letter-spacing: 3.5px;
+  text-decoration: underline;
+  text-decoration-color: #FF4500;
+}
+
+.head-subtext {
+  color: white;
+  text-align: left;
+  font-size: 20px;
+  font-style: oblique;
 }
 
 /* ======================
